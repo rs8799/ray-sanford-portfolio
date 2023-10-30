@@ -2703,7 +2703,7 @@ input, select, textarea {
 		background: lightslategrey;
 		color: #d2f2e9;
 		height: 100%;
-		overflow-y: auto;
+		/* overflow-y: auto; */
 		position: fixed;
 		text-align: center;
 		top: 0;
@@ -2716,7 +2716,7 @@ input, select, textarea {
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: black;
 			}
 
 		#header header p {
@@ -2751,7 +2751,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				color: black;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2808,7 +2808,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: black !important;
 						}
 
 					#header > nav ul li:first-child {
