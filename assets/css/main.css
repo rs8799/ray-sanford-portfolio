@@ -327,7 +327,9 @@ input, select, textarea {
 		.row > .off-5 {
 			margin-left: 41.66667%;
 		}
-
+		.whiteTextForm{
+			color: black;
+		}
 		.row > .col-6 {
 			width: 50%;
 		}
